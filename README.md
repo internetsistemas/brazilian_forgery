@@ -5,7 +5,7 @@ Forgery extention with a tons of Brazilian things like names, cities, and others
 
 ## Using
 
-Brazilian's Forgery primary uses the awesome [https://github.com/sevenwire/forgery(Forgery) and extends the package lib with Dictionaries, Formats and Forgeries.
+Brazilian's Forgery primary uses the awesome [Forgery](https://github.com/sevenwire/forgery) and extends the package lib with Dictionaries, Formats and Forgeries.
 
 
 ### Full list of Dictionaries:
