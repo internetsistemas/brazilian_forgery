@@ -31,7 +31,7 @@ class Forgery::Cnpj < Forgery
 
   # Generates a valid CNPJ number, including separators. Returns a string.
   #
-  # Forgery(:cnpj).numeric
+  # Forgery(:cnpj).formatted
   #   # => "22.792.949/0001-04"
   def self.formatted
     cnpj = numeric.to_s.rjust(14, "0")
