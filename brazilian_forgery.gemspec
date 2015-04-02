@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Felipe Fontoura']
   spec.email         = ['felipe@internetsistemas.com.br']
 
-  spec.summary       = %q{A Brazilian Forgery gem extention}
-  spec.description   = %q{Forgery extention with a tons of Brazilian things like names, cities, ...}
+  spec.summary       = 'A Brazilian Forgery gem extention'
+  spec.description   = 'Forgery extention with a tons of Brazilian things like names, cities, ...'
   spec.homepage      = ''
   spec.license       = 'MIT'
 
