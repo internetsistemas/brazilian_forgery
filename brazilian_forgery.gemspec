@@ -11,7 +11,6 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'A Brazilian Forgery gem extention'
   spec.description   = 'Forgery extention with a tons of Brazilian things like names, cities, ...'
-  spec.homepage      = ''
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split('\x0').reject { |f| f.match(%r{^(test|spec|features)/}) }
