@@ -1,6 +1,6 @@
 # Generates random Brazilian CNPJ.
 # Credits: https://raw.github.com/bernardo/cpf_faker/master/lib/faker/cnpj.rb
-class Forgery::Cnpj < Forgery
+class Forgery::CNPJ < Forgery
   # Generates a valid CNPJ number with numbers only. Returns a string, since it may have leading zeros.
   #
   # Forgery(:cnpj).numeric
