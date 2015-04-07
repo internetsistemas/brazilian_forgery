@@ -1,5 +1,5 @@
 require 'brazilian_forgery/version'
+require 'forgery'
 
-module BrazilianForgery
-  # some code here...
-end
+module BrazilianForgery; end
+
