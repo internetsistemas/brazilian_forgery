@@ -9,9 +9,7 @@ describe Forgery::CNPJ do
     end
 
     it 'returns a correct formatted cnpj' do
-      cnpj_regex = /\A\d{2}\.\d{3}.\d{3}\/\d{4}-\d{2}\Z/
-
-      expect(Forgery::CNPJ.formatted.match(cnpj_regex)).to_not be_nil
+      expect(Forgery::CNPJ.formatted).to match(/\A\d{2}\.\d{3}.\d{3}\/\d{4}-\d{2}\Z/)
     end
 
     it 'has a exactly number quantity of a cnpj' do
