@@ -1,4 +1,4 @@
-require "brazilian_forgery/version"
+require 'brazilian_forgery/version'
 
 module BrazilianForgery
   # Your code goes here...

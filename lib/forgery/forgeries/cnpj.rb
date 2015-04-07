@@ -4,7 +4,7 @@ class Forgery::Cnpj < Forgery
   # Generates a valid CNPJ number with numbers only. Returns a string, since it may have leading zeros.
   #
   # Forgery(:cnpj).numeric
-  #   # => "57222068000132"
+  #   # => '57222068000132'
   def self.numeric
     cnpj_root = Array.new(12) { rand(10) }
 
@@ -32,9 +32,9 @@ class Forgery::Cnpj < Forgery
   # Generates a valid CNPJ number, including separators. Returns a string.
   #
   # Forgery(:cnpj).formatted
-  #   # => "22.792.949/0001-04"
+  #   # => '22.792.949/0001-04'
   def self.formatted
-    cnpj = numeric.to_s.rjust(14, "0")
-    "%s.%s.%s/%s-%s" % [cnpj[0,2], cnpj[2,3], cnpj[5,3], cnpj[8,4], cnpj[12,2]]
+    cnpj = numeric.to_s.rjust(14, '0')
+    '%s.%s.%s/%s-%s' % [cnpj[0,2], cnpj[2,3], cnpj[5,3], cnpj[8,4], cnpj[12,2]]
   end
 end
