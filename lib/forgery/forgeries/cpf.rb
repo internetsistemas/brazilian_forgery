@@ -1,10 +1,12 @@
 # Generates random Brazilian CPF.
 # Credits: https://raw.github.com/bernardo/cpf_faker/master/lib/faker/cpf.rb
-class Forgery::Cpf < Forgery
-  # Generates a valid CPF number with numbers only. Returns a String (since it might contain leading zeros).
+
+class Forgery::CPF < Forgery
+  # Generates a valid CPF number with numbers only.
+  # Returns a String (since it might contain leading zeros).
   #
   # Forgery(:cpf).numeric
-  #   # => "11438374798"
+  #   # => '11438374798'
   def self.numeric
     cpf_root = Array.new(9) { rand(10) }
 
@@ -32,9 +34,12 @@ class Forgery::Cpf < Forgery
   # Generates a valid CPF number with numbers and separators. Returns a String.
   #
   # Forgery(:cpf).formated
-  #   # => "059.893.186-42"
+  #   # => '059.893.186-42'
   def self.formatted
-      cpf_numbers = numeric
-      "%s.%s.%s-%s" % [cpf_numbers[0..2], cpf_numbers[3..5], cpf_numbers[6..8], cpf_numbers[9..10]]
+    cpf_digits = numeric
+    '%s.%s.%s-%s' % [cpf_digits[0..2],
+                     cpf_digits[3..5],
+                     cpf_digits[6..8],
+                     cpf_digits[9..10]]
   end
 end

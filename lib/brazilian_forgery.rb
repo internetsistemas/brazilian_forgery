@@ -1,5 +1,5 @@
-require "brazilian_forgery/version"
+require 'brazilian_forgery/version'
+require 'forgery'
 
-module BrazilianForgery
-  # Your code goes here...
-end
+module BrazilianForgery; end
+
