@@ -1,5 +1,6 @@
 require 'brazilian_forgery'
 require 'brazilian_forgery/version'
+require 'brazilian_forgery/api'
 
 require 'forgery'
 current_path = File.expand_path(File.dirname(__FILE__))
