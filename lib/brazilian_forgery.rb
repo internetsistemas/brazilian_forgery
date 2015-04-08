@@ -2,13 +2,7 @@ require 'brazilian_forgery'
 require 'brazilian_forgery/version'
 
 require 'forgery'
-require 'forgery/forgeries/bank'
-require 'forgery/forgeries/cnpj'
-require 'forgery/forgeries/cpf'
+current_path = File.expand_path(File.dirname(__FILE__))
 
-#Dir['forgery/forgeries/*.rb'].each { |f| require File.expand_path(f) }
-
-Forgery.load_from! 'lib/forgery'
-
-module BrazilianForgery
-end
+Dir["#{current_path}/brazilian_forgery/forgeries/*"].each {|f| require f }
+Forgery.load_from! "#{current_path}/brazilian_forgery"

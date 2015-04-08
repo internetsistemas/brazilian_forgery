@@ -1,5 +1,5 @@
 # Generates random Brazilian Occupations from IBGE.
-class Forgery::Occupation < Forgery
+class BrazilianForgery::Occupation < Forgery
   # Generates a valid occupation name.
   #
   # Forgery(:occupation).name

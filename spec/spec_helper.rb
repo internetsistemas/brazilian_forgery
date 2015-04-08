@@ -1,7 +1,5 @@
 require 'forgery'
-Dir['lib/forgery/forgeries/*.rb'].each { |f| require File.expand_path(f) }
-
-Forgery.load_from! 'lib/forgery'
+require 'brazilian_forgery'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

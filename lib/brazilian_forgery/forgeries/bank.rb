@@ -1,5 +1,5 @@
 # Generates random Brazilian Banks.
-class Forgery::Bank < Forgery
+class BrazilianForgery::Bank < Forgery
   # Generates a random bank code.
   #
   # Forgery(:bank).code

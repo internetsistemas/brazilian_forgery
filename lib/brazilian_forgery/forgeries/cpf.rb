@@ -1,7 +1,7 @@
 # Generates random Brazilian CPF.
 # Credits: https://raw.github.com/bernardo/cpf_faker/master/lib/faker/cpf.rb
 
-class Forgery::CPF < Forgery
+class BrazilianForgery::CPF < Forgery
   # Generates a valid CPF number with numbers only.
   # Returns a String (since it might contain leading zeros).
   #
