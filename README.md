@@ -1,7 +1,6 @@
 # Brazilian's Forgery
 
-Forgery extention with a tons of Brazilian things like names, cities, and others.
-
+Forgery extension with a tons of Brazilian things like names, cities, and others.
 
 ## Using
 
@@ -14,7 +13,7 @@ Brazilian's Forgery primary uses the awesome [Forgery](https://github.com/sevenw
 * Female first names
 * Last names
 * Male first names
-* States abreviations
+* States abbreviations
 * States
 * Streets
 
@@ -25,7 +24,7 @@ Brazilian's Forgery primary uses the awesome [Forgery](https://github.com/sevenw
 * Zip
 
 
-### Full List of aditional Forgeries:
+### Full List of additional Forgeries:
 
 Method                                          | Example Output
 :------------------------------                 |:----------------
@@ -35,11 +34,11 @@ Method                                          | Example Output
 `Forgery('bank').agency_number`                 | 1234-3
 `Forgery('bank').account_number`                | 1234567-3
                                                 |
-`Forgery('cnpj').numeric`                       | 57222068000132
-`Forgery('cnpj').formatted`                     | 22.792.949/0001-04
+`Forgery('CNPJ').numeric`                       | 57222068000132
+`Forgery('CNPJ').formatted`                     | 22.792.949/0001-04
                                                 |
-`Forgery('cpf').numeric`                        | 11438374798
-`Forgery('cpf').formatted`                      | 059.893.186-42
+`Forgery('CPF').numeric`                        | 11438374798
+`Forgery('CPF').formatted`                      | 059.893.186-42
                                                 |
 `Forgery('occupation').name`                    | Engenheiro Mecânico
 
@@ -62,7 +61,7 @@ gem 'brazilian_forgery', '0.0.1'
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/brazilian_forgery/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
+2. Create your feature branch (`git checkout -b my-awesome-feature`)
+3. Commit your changes (`git commit -am 'Add the best feature'`)
+4. Push to the branch (`git push origin my-awesome-feature`)
 5. Create a new Pull Request
