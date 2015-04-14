@@ -47,13 +47,13 @@ Method                                          | Example Output
 
 Like any gem:
 
-```
+```console
 $ gem install forgery
 ```
 
 or
 
-```
+```ruby
 gem 'brazilian_forgery', '0.0.1'
 ```
 
