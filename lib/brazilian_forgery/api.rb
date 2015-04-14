@@ -15,7 +15,3 @@ def brazilian_forgery_api(forgery, method = nil, *args)
 end
 
 alias Forgery :brazilian_forgery_api
-
-# def Forgery(forgery, method = nil, *args)
-#
-#end
