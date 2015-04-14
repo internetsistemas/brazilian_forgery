@@ -54,7 +54,7 @@ $ gem install forgery
 or
 
 ```ruby
-gem 'brazilian_forgery', '0.0.1'
+gem 'brazilian_forgery', '1.2.3'
 ```
 
 
