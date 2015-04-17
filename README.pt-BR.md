@@ -2,7 +2,7 @@
 
 Extensão da Forgery com toneladas de dados *brasileiros* como nomes, cidades, entre outros.
 
-I18n: **[en-US](/README.pt-BR.md)** **pt-BR**
+I18n: **[en-US](/README.md)** **pt-BR**
 
 ## Usando:
 
@@ -63,7 +63,7 @@ gem 'brazilian_forgery', '1.2.3'
 
 ## Pull requests são bem vindos!:
 
-1. Fork isso ( https://github.com/[my-github-username]/brazilian_forgery/fork )
+1. Fork este repositório ( https://github.com/[my-github-username]/brazilian_forgery/fork )
 2. Crie a sua branch com a mudança (`git checkout -b my-awesome-feature`)
 3. Comite suas alterações (`git commit -am 'Add the best feature'`)
 4. Push para a origem (`git push origin my-awesome-feature`)
