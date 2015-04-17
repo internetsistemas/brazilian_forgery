@@ -1,8 +1,8 @@
-
-I18n: **[en-US](/README.pt-BR.md)** **pt-BR**
-## pt-BR:
+# Brazilian's Forgery
 
 Extensão da Forgery com toneladas de dados *brasileiros* como nomes, cidades, entre outros.
+
+I18n: **[en-US](/README.pt-BR.md)** **pt-BR**
 
 ## Usando:
 
